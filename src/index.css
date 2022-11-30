@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 * {
   margin: 0;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   color: #333;
 }
 .navbar {
@@ -13,7 +15,7 @@
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #486ef9;
 }
 .navbar .links {
   margin-left: auto;
@@ -24,7 +26,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #486ef9;
 }
 .content {
   max-width: 600px;
