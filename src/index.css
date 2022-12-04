@@ -23,7 +23,8 @@ html {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  background-color: black;
+  background-color: transparent;
+  border-bottom: 3px solid black
 }
 .navbar h1 {
   color: var(--wheat-color);
