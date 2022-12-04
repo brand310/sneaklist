@@ -10,7 +10,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  /* max-width: 600px; */
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -29,7 +29,8 @@
   color: #486ef9;
 }
 .content {
-  max-width: 600px;
-  margin: 40px auto;
+  /* max-width: 600px; */
+  /* margin: 40px auto; */
+  height: 100vh;
   padding: 20px;
 }
