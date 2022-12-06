@@ -1,5 +1,6 @@
 // DEPENDENCIES
 const express = require('express')
+const mongoose = require('mongoose')
 
 
 // CONFIGURATION & MIDDLEWARE
@@ -10,6 +11,9 @@ app.use(express.json())
 app.use((req, res, next) => {
     console.log(req.path, req.method)
     next()
+})
+mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true }, () => {
+    console.log('connected to mongo on: ', process.env.MONGO_URI)
 })
 
 

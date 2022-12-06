@@ -1,5 +1,6 @@
 const express = require('express')
 const sneakers = express.Router()
+const Sneaker = require('../models/sneaker')
 
 // SNEAKERS INDEX
 sneakers.get('/', (req, res) => {
@@ -12,8 +13,15 @@ sneakers.get('/:id', (req, res) => {
 })
 
 // POST to CREATE a new sneaker
-sneakers.post('/', (req, res) => {
-    res.json({message: 'POST a new sneaker'})
+sneakers.post('/', async (req, res) => {
+    const { name, brand, size, image, comment } = req.body
+    try {
+        const sneaker = await Sneaker.create(req.body)
+        res.status(200).json(sneaker)
+    } catch(error){
+        res.status(400).json({error: error.message})
+    }
+    // res.json({message: 'POST a new sneaker'})
 })
 
 // PUT to UPDATE a sneaker
