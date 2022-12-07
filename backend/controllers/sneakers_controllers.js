@@ -12,11 +12,11 @@ sneakers.get('/', async (req, res) => {
 // GET to SHOW a single sneaker
 sneakers.get('/:id', async (req, res) => {
     if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
-        return res.status(400).json({error: 'Sneaker does not exist.'})
+        return res.status(404).json({error: 'Sneaker does not exist.'})
     }
     const sneaker = await Sneaker.findById(req.params.id)
     if (!sneaker) {
-        return res.status(400).json({error: 'Sneaker does not exist.'})
+        return res.status(404).json({error: 'Sneaker does not exist.'})
     }
     res.status(200).json(sneaker)
 })
@@ -27,7 +27,7 @@ sneakers.post('/', async (req, res) => {
     // Adding document to db
     try {
         const sneaker = await Sneaker.create(req.body)
-        res.status(200).json(sneaker)
+        res.status(201).json(sneaker)
     } catch(error){
         res.status(400).json({error: error.message})
     }    
@@ -42,7 +42,7 @@ sneakers.put('/:id', async (req, res) => {
     if (!sneaker) {
         return res.status(400).json({error: 'Sneaker does not exist.'})
     }
-    res.status(200).json(sneaker)
+    res.status(202).json(sneaker)
 })
 
 // DELETE a sneaker
@@ -54,7 +54,7 @@ sneakers.delete('/:id', async (req, res) => {
     if (!sneaker) {
         return res.status(400).json({error: 'Sneaker does not exist.'})
     }
-    res.status(200).json(sneaker)
+    res.status(204).json(sneaker)
 })
 
 // EXPORT
