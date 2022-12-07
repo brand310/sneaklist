@@ -90,3 +90,15 @@ html {
   background-color:#06BCC1;
   transition: 0.2s;
 }
+
+.createName {
+  color: var(--wheat-color);
+}
+
+.createPage {
+  font-size: 100em;
+}
+
+.CreateName {
+  margin-top: 100em;
+}
