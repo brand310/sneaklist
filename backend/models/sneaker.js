@@ -8,7 +8,7 @@ const sneakerSchema = new Schema ({
     name: { type: String, required: true },
     brand: {
         type: String,
-        enum: ['Adidas', 'Converse', 'New Balance', 'Nike', 'Puma', 'Reebok', 'Vans',]
+        enum: ['Adidas', 'Converse', 'Jordan', 'New Balance', 'Nike', 'Puma', 'Reebok', 'Vans']
     },
     size: { type: Number, required: true },
     image: { type: String, default: 'https://place-puppy.com/300x300' },
