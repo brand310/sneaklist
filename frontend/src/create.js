@@ -22,7 +22,7 @@ function Create() {
       console.log('New shoe has been added')
     })
 
-    navigate('/');
+    // navigate('/');
 
   }
 
