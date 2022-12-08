@@ -1,6 +1,9 @@
+import Navbar from "./Navbar";
+
 const Home = () => {
     return (
       <div className="home">
+        <Navbar/>
         <h2 className="introName">SNEAKLIST</h2>
         <p className="intro1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
