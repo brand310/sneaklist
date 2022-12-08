@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fjalla+One&display=swap');
 
+/* Home */
 * {
   margin: 0;
   font-family: 'Fjalla One', sans-serif;
@@ -10,14 +11,12 @@
   --cyanish-color:#06BCC1;
   --wheat-color:#EFD6AC;
 }
-
 html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url("assets/imgs/homepagebackground4.png");
   background-size: 100%;
 }
-
 .navbar {
   padding: 20px;
   display: flex;
@@ -58,16 +57,14 @@ transition: 1s ease;
 .content {
   padding: 20px;
 }
-
 .card1 {
   background: url("assets/imgs/sneakersimg4.png");
   width: 1000px;
   height: 800px;
-  margin-left: 757px;
+  margin-left: 900px;
   margin-top: -300px;
   background-repeat: no-repeat;
 }
-
 .intro1 {
   text-align: left;
   margin-right: 500px;
@@ -76,8 +73,8 @@ transition: 1s ease;
   margin-left: 150px;
   font-size: 18px;
   color: var(--black-color);
+  text-shadow: 2px 2px var(--wheat-color);
 }
-
 .introName {
   font-family: 'Alfa Slab One';
   font-size: 100px;
@@ -87,7 +84,6 @@ transition: 1s ease;
   letter-spacing: 5px;
   color: var(--black-color);
 }
-
 .button1 {
   background-color: #000000;
   border-radius: 10px;
@@ -101,7 +97,6 @@ transition: 1s ease;
   margin-left: 150px;
   position: absolute;
 }
-
 .button1:hover {
   background-color:#06BCC1;
   transition: 0.2s;
