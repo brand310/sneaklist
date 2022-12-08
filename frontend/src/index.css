@@ -66,9 +66,10 @@ transition: 1s ease;
   margin-left: 757px;
   margin-top: -300px;
   background-repeat: no-repeat;
+  
 }
 
-.intro1 {
+.sneaker-gallery {
   text-align: left;
   margin-right: 500px;
   margin-top: 10px;
@@ -105,4 +106,9 @@ transition: 1s ease;
 .button1:hover {
   background-color:#06BCC1;
   transition: 0.2s;
+}
+
+.flex-container img {
+  height: 300px;
+  width: 375px;
 }
