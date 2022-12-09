@@ -68,8 +68,8 @@ transition: 1s ease;
   background: url("assets/images/sneakersimg4.png");
   width: 100vw;
   height: 800px;
-  margin-left: 757px;
-  margin-top: -300px;
+  margin-left: 500px;
+  margin-top: -100px;
   background-repeat: no-repeat;
 }
 .intro1 {
@@ -85,7 +85,7 @@ transition: 1s ease;
 .introName {
   font-family: 'Alfa Slab One';
   font-size: 100px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 150px;
   text-shadow: 2px 2px var(--wheat-color);
   letter-spacing: 5px;
