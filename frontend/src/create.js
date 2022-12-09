@@ -16,13 +16,13 @@ function Create() {
     const shoe = {name, brand, size, image, comment};
     fetch('http://localhost:3005/sneakers', {
       method: 'POST',
-      headers: {"Content-Type": "appliation/json" },
+      headers: {"Content-Type": "application/json" },
       body: JSON.stringify(shoe)
     }).then(() => {
       console.log('New shoe has been added')
     })
 
-    // navigate('/');
+    navigate('/');
 
   }
 
