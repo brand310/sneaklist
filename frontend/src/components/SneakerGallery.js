@@ -28,7 +28,9 @@ const SneakerGallery = () => {
                                 <h3>{sneaker.name}</h3>
                             {/* </a> */}
                             <p>{sneaker.brand}</p>
-                            <img src={sneaker.image} alt='sneaker' />                            
+                            <img src={sneaker.image} alt='sneaker' />
+                            <p>{sneaker.comment}</p>
+                            <p>-Hypebeast</p>                       
                         </div>      
                         <br/>
                         <br/>
