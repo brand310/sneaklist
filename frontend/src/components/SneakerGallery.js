@@ -26,9 +26,10 @@ const SneakerGallery = () => {
                         <div className="sneaker-boxes">
                             <h3>{sneaker.name}</h3>
                             <p>{sneaker.brand}</p>
-                            <img src={sneaker.image} alt='sneaker' />            
-                            <br />
-                        </div>                        
+                            <img src={sneaker.image} alt='sneaker' />                            
+                        </div>      
+                        <br/>
+                        <br/>
                     </div>
                 ))
             }

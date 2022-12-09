@@ -126,8 +126,12 @@ ul {
 }  
 
 .flex-container {
+  color: white;
+  text-shadow: 2px 2px black;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
   max-width: 90vw;
   margin-right: 50px;
   margin-left: 50px;
