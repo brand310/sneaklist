@@ -1,0 +1,22 @@
+.createName{
+    font-family: 'Alfa Slab One';
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-shadow: 2px 2px var(--wheat-color);
+    letter-spacing: 5px;
+    color: var(--black-color);
+  }
+
+.create-page .form {
+   
+    text-align: left;
+    margin-right: 500px;
+    margin-top: 100px;
+    max-width: 700px;
+    margin-left: 150px;
+    font-size: 30px;
+    color: var(--black-color);
+  }
+
+  

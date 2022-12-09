@@ -14,9 +14,13 @@ const Home = () => {
          Post some sizing wisdom or gain some sizing wisdom!
         </p>
         <div className="card1"></div>
-        <button className="button1">TRY NOW</button>
+        <form action="/create">
+            <button className="button1" >TRY NOW</button>
+        </form>
       </div>
     );
   };
   
   export default Home;
+
+ 

@@ -28,10 +28,10 @@ const Navbar = () => {
                         <a href='/' onClick={closeMenu}>Home</a>
                     </li>
                     <li className='nav-item-names'>
-                        <a href='/sizing' onClick={closeMenu}>Sizing</a>
+                        <a href='/create' onClick={closeMenu}>New Shoe</a>
                     </li>
                     <li className='nav-item-names'>
-                        <a href='/about' onClick={closeMenu}>About</a>
+                        <a href='/sneaks' onClick={closeMenu}>Sneaks Gallery</a>
                     </li>
                 </ul>
             </nav>
