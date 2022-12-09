@@ -14,7 +14,7 @@ const Home = () => {
          Post some sizing wisdom or gain some sizing wisdom!
         </p>
         <div className="card1"></div>
-        <form action="/create">
+        <form action="sneakers/create">
             <button className="button1" >TRY NOW</button>
         </form>
       </div>

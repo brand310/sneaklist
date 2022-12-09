@@ -28,17 +28,16 @@ const Navbar = () => {
                         <a href='/' onClick={closeMenu}>Home</a>
                     </li>
                     <li className='nav-item-names'>
-                        <a href='/create' onClick={closeMenu}>New Shoe</a>
+                        <a href='sneakers/create' onClick={closeMenu}>New Shoe</a>
                     </li>
                     <li className='nav-item-names'>
-                        <a href='/sneaks' onClick={closeMenu}>Sneaks Gallery</a>
+                        <a href='/sneakers' onClick={closeMenu}>Sneaks Gallery</a>
                     </li>
                 </ul>
             </nav>
         </div>
     )
 }
-
 
 // const Navbar = () => {
 //   return (

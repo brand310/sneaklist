@@ -4,14 +4,16 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Create from './components/create';
 
+
 function App() {
   return (
     <div className='App'>
-      <Navbar/>
+      {/* <Navbar/> */}
       <BrowserRouter>
+      <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/create" element={<Create/>}/>
+          <Route path="sneakers/create" element={<Create/>}/>
         </Routes>
       </BrowserRouter>
     </div>
