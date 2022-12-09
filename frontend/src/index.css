@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fjalla+One&display=swap');
 
+/* Home */
 * {
   margin: 0;
   font-family: 'Fjalla One', sans-serif;
@@ -9,23 +10,25 @@
   --black-color:#000000;
   --cyanish-color:#06BCC1;
   --wheat-color:#EFD6AC;
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
 }
 
 html {
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-attachment: fixed;
-  background-image: url("assets/imgs/homepagebackground4.png");
+  background-image: url("assets/images/homepagebackground4.png");
   background-size: 100%;
-}
-
+}  
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
   margin: 0 auto;
   background-color:transparent;
-}
-.sneaklistlogo {
+}  
+/* .sneaklistlogo {
   background: url("assets/imgs/sneaklistlogo2.png");
   width: 50px;
   height: 50px;
@@ -39,50 +42,50 @@ html {
 -ms-transform: scale(1.2);
 transform: scale(1.2);
 transition: 1s ease;
-}
+} */
 .navbar h1 {
   color: var(--black-color);
 }
 .navbar .links {
   margin-left: auto;
 }
-.navbar a {
+ .navbar a{
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  color: var(--wheat-color);
-}
-.navbar a:hover {
-  color: var(--cyanish-color);
-}
-.content {
+  color: #EFD6AC;
+}   
+ .navbar a:hover {
+  color:#06BCC1 ;
+}  */
+  .content {
   padding: 20px;
+}  
+  .nav-item-names{
+  color:#EFD6AC ;
 }
-
 .card1 {
-  background: url("assets/imgs/sneakersimg4.png");
+  background: url("assets/images/sneakersimg4.png");
   width: 1000px;
   height: 800px;
   margin-left: 757px;
   margin-top: -300px;
   background-repeat: no-repeat;
-  
 }
-
-.sneaker-gallery {
+.intro1 {
   text-align: left;
   margin-right: 500px;
   margin-top: 10px;
   max-width: 700px;
   margin-left: 150px;
-  font-size: 18px;
+  font-size: 20px;
+  text-shadow: 1px 1px var(--wheat-color);
   color: var(--black-color);
 }
-
 .introName {
   font-family: 'Alfa Slab One';
   font-size: 100px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 150px;
   text-shadow: 2px 2px var(--wheat-color);
   letter-spacing: 5px;
@@ -106,6 +109,30 @@ transition: 1s ease;
 .button1:hover {
   background-color:#06BCC1;
   transition: 0.2s;
+} 
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ a {
+  text-decoration: none;
+}  
+
+.flex-container {
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.sneaker-details {
+  margin-left: 50px;
 }
 
 .flex-container img {

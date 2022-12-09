@@ -18,14 +18,17 @@ const SneakerGallery = () => {
 
     return (
         <div className="flex-container">
-            <h1>Sneakers</h1>            
+            {/* <h1>Sneakers</h1>
+            <br />     */}
             {
                 sneakers && sneakers.map((sneaker) => (
                     <div className="sneaker-details" >
-                        <h3>{sneaker.name}</h3>
-                        <p>{sneaker.brand}</p>
-                        <img src={sneaker.image} alt='sneaker' />            
-                        <br />            
+                        <div className="sneaker-boxes">
+                            <h3>{sneaker.name}</h3>
+                            <p>{sneaker.brand}</p>
+                            <img src={sneaker.image} alt='sneaker' />            
+                            <br />
+                        </div>                        
                     </div>
                 ))
             }
