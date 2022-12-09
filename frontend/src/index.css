@@ -66,7 +66,7 @@ transition: 1s ease;
 }
 .card1 {
   background: url("assets/images/sneakersimg4.png");
-  width: 1000px;
+  width: 100vw;
   height: 800px;
   margin-left: 757px;
   margin-top: -300px;
@@ -127,6 +127,8 @@ ul {
 
 .flex-container {
   display: flex;
+  flex-direction: column;
+  max-width: 90vw;
   margin-right: 50px;
   margin-left: 50px;
 }
