@@ -39,8 +39,7 @@ What our app features:
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
+This is a library of major tools used to build our app.
 
 * [React][React.js]][https://reactjs.org]
 * [Bootstrap][Bootstrap.com]][https://getbootstrap.com]
