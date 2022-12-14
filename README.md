@@ -41,10 +41,10 @@ What our app features:
 
 This is a library of major tools used to build our app.
 
-* [React][React.js]][https://reactjs.org]
-* [Bootstrap][Bootstrap.com]][https://getbootstrap.com]
-* [JQuery][JQuery.com]][https://jquery.com]
-* [MongoDB][https://www.mongodb.com/home]
+* [React][React.js][https://reactjs.org]
+* [Bootstrap][https://getbootstrap.com]
+* [JQuery][https://jquery.com]
+* [MongoDB][https://www.mongodb.com
 * [Vercel][https://vercel.com/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
