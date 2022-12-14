@@ -52,8 +52,7 @@ This is a library of major tools used to build our app.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
+Below is an example of how you can install and set up our app.
 1. Clone the repo
    ```sh
    git clone https://github.com/brand310/sneaklist
